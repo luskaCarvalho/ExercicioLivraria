@@ -1,0 +1,8 @@
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\bin\Debug\Sistema Livraria - Fernanda e Lucas.exe.config
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\bin\Debug\Sistema Livraria - Fernanda e Lucas.exe
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\bin\Debug\Sistema Livraria - Fernanda e Lucas.pdb
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\obj\Debug\Sistema Livraria - Fernanda e Lucas.csproj.AssemblyReference.cache
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\obj\Debug\Sistema Livraria - Fernanda e Lucas.csproj.SuggestedBindingRedirects.cache
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\obj\Debug\Sistema Livraria - Fernanda e Lucas.csproj.CoreCompileInputs.cache
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\obj\Debug\Sistema Livraria - Fernanda e Lucas.exe
+C:\Users\fernanda.palves3\source\repos\Sistema Livraria - Fernanda e Lucas\Sistema Livraria - Fernanda e Lucas\obj\Debug\Sistema Livraria - Fernanda e Lucas.pdb
