@@ -22,7 +22,9 @@ namespace Sistema_Livraria___Fernanda_e_Lucas
         string login;
         string senha;
         string validarLogin;
-
+        string validarSenha;
+        string login2;
+        string senha2;
         public ModelSistema()
         {
             //instanciando vetor/variavel
@@ -53,6 +55,8 @@ namespace Sistema_Livraria___Fernanda_e_Lucas
 
         public void CadastrarUsuario()
         {
+            //declarando variaveis locais
+            
             Console.WriteLine("Qual seu nome?");
             nome = Console.ReadLine();
 
@@ -67,38 +71,56 @@ namespace Sistema_Livraria___Fernanda_e_Lucas
 
             Console.WriteLine("Qual seu login?");
             login = Console.ReadLine();
+            validarLogin = login;
+            
 
-            if (login == validarLogin)
+            if (validarLogin == login2)
             {
                 Console.WriteLine("Você já está cadastrado! Faca login");
-                Console.WriteLine("Qual seu login?");
-                login2 = Console.ReadLine();
-
-
+                
             }
+ 
 
             Console.WriteLine("Qual sua senha?");
             senha = Console.ReadLine();
 
-            validarLogin = login;
+            validarSenha = senha;
+
+            if (validarSenha == senha2)
+            {
+                Console.WriteLine("Você já está cadastrado! Faca login");
+                
+            }
+
+            
         }//fim do metodo cadastrar usuario
 
         //metodo para fazer login
 
         public void LoginUsuario()
-        {   //declarando variaveis locais
-            string login2;
-
-            
-
-            if (login2 == this.login)
+        {
+            do
             {
-                Console.WriteLine("Erro!");
-            }
+                Console.WriteLine("Qual é o seu login? ");
+                login2 = Console.ReadLine();
 
-            Console.WriteLine("Qual sua senha?");
-            senha = Console.ReadLine();
+                if (login2 != validarLogin)
+                {
+                    Console.WriteLine("Você não se cadastrou!");
+                }
+            } while (login2 != validarLogin);
 
-        }
+            do
+            {
+                Console.WriteLine("Qual sua senha?");
+                senha2 = Console.ReadLine();
+                if (senha2 != validarSenha)
+                {
+                    Console.WriteLine("Você não se cadastrou!");
+                }
+
+            } while (senha2 != validarSenha);
+        }  
     }
+
 }
